@@ -1974,7 +1974,7 @@ plt.show()
 
 
     
-![png](output_80_0.png)
+![images](output_80_0.png)
     
 
 
@@ -2358,13 +2358,13 @@ df.style.background_gradient(cmap="Blues").set_caption("Model Performance Summar
 
 
     
-![png](output_84_0.png)
+![images](output_84_0.png)
     
 
 
 
     
-![png](output_84_1.png)
+![images](output_84_1.png)
     
 
 
