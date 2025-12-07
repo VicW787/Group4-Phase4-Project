@@ -1974,7 +1974,7 @@ plt.show()
 
 
     
-![images](output_80_0.png)
+![Accuracy vs Weighted F1](images/output_80_0.png)
     
 
 
@@ -2358,13 +2358,13 @@ df.style.background_gradient(cmap="Blues").set_caption("Model Performance Summar
 
 
     
-![images](output_84_0.png)
+![Model Accuracy Comparison](images/output_84_0.png)
     
 
 
 
     
-![images](output_84_1.png)
+![Accuracy vs Weighted F1 for All Models](images/output_84_1.png)
     
 
 
