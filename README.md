@@ -74,7 +74,15 @@ This dataset is well-suited for an NLP sentiment classification task because it 
     
 ![Accuracy vs Weighted F1 for All Models](images/output_84_1.png)
     
-
+Model Performance Summary
+ 	Model	Accuracy	Weighted F1
+0	DistilBERT (2-epoch)	0.711600	0.670000
+1	DistilBERT (4-epoch)	0.714900	0.690000
+2	Weighted SVM	0.698100	0.690000
+3	SVM	0.670000	0.660000
+4	Naive Bayes	0.663900	0.630000
+5	SMOTE-SVM	0.651000	0.660000
+6	Tuned Logistic Regression	0.427000	0.450000
 
 This project evaluated a range of machine-learning and transformer-based models for sentiment analysis on apple_google_twitter data. The goal was to identify the model that offers the best balance of accuracy, robustness to class imbalance, and real-world practicality. Seven models were compared, including classical machine-learning baselines, SMOTE-enhanced variants, and two versions of a fine-tuned DistilBERT transformer model.
 
