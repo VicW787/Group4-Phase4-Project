@@ -9,7 +9,7 @@ Data preparation included lowercasing, removing URLs, mentions, emojis, punctuat
 
 Several models were evaluated. Traditional machine learning classifiers (Logistic Regression, Naive Bayes, Linear SVM, SMOTE-SVM, and Weighted SVM) achieved accuracies between 63% and 70%, with weighted SVM performing the strongest among them. A fine-tuned DistilBERT model significantly outperformed classical models, achieving 71.16% accuracy with 2 epochs and 71.49% accuracy after 4 epochs—confirming the advantage of transformer models for short-form, informal text like tweets.
 
-Model evaluation used an 80/20 train-test split, accuracy, weighted F1-score, and confusion matrices. DistilBERT was selected as the final model due to its superior performance, ability to capture context, and improved handling of neutral vs. positive/negative distinctions. Further fine-tuning and domain-specific training data can boost accuracy even more.ults.
+Model evaluation used an 80/20 train-test split, accuracy, weighted F1-score, and confusion matrices. DistilBERT was selected as the final model due to its superior performance, ability to capture context, and improved handling of neutral vs. positive/negative distinctions. Further fine-tuning and domain-specific training data can boost accuracy even more results.
 
 
 
