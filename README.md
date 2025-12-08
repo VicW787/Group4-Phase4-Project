@@ -42,6 +42,8 @@ Analyze Apple vs Google sentiment trends to understand market positioning, custo
  # 4. **Business problem**
     
 Apple’s Marketing & Product Intelligence teams require a system that can continuously monitor and compare public sentiment toward Apple products against competing brands—particularly Google. With social media platforms like Twitter influencing customer perception in real time, Apple needs early visibility into negative trends, emerging complaints, and user frustrations before they scale. Likewise, understanding which Apple products generate the strongest positive engagement—compared to similar Google offerings—provides insights for campaign optimization, product refinement, and competitive positioning.
+
+# 4,1 **Project Objectives**
 This project aims to build an NLP-based sentiment analysis model capable of automatically classifying Apple- and Google-related tweets as positive, negative, or neutral. The solution will help Apple quantify customer emotions, detect shifts in public perception, and benchmark Apple’s reputation relative to Google in fast-evolving online conversations.
 
 # 5. **Data Understanding**
