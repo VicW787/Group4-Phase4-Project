@@ -1,7 +1,5 @@
 # **Phase 4 Project: NLP Sentiment Analysis of Apple vs Google Tweets**
 
-![Description of image](images/1.png)
-
 
 # 1. **Executive Summary**
 
