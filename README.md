@@ -63,7 +63,7 @@ Basic descriptive statistics show an average tweet length of ~105 characters, wi
 This dataset is well-suited for an NLP sentiment classification task because it provides labeled text, diverse sentiment categories, and real-world social media noise—allowing meaningful training and evaluation of advanced models such as DistilBERT.
 
 
-
+# **Models Results and Recommendation**
 
     
 ![Model Accuracy Comparison](images/output_84_0.png)
@@ -74,110 +74,6 @@ This dataset is well-suited for an NLP sentiment classification task because it 
     
 ![Accuracy vs Weighted F1 for All Models](images/output_84_1.png)
     
-
-
-
-
-
-<style type="text/css">
-#T_6a55d_row0_col1 {
-  background-color: #08326e;
-  color: #f1f1f1;
-}
-#T_6a55d_row0_col2 {
-  background-color: #08468b;
-  color: #f1f1f1;
-}
-#T_6a55d_row1_col1, #T_6a55d_row1_col2, #T_6a55d_row2_col2 {
-  background-color: #08306b;
-  color: #f1f1f1;
-}
-#T_6a55d_row2_col1 {
-  background-color: #083e81;
-  color: #f1f1f1;
-}
-#T_6a55d_row3_col1 {
-  background-color: #0e58a2;
-  color: #f1f1f1;
-}
-#T_6a55d_row3_col2, #T_6a55d_row5_col2 {
-  background-color: #08509b;
-  color: #f1f1f1;
-}
-#T_6a55d_row4_col1 {
-  background-color: #125ea6;
-  color: #f1f1f1;
-}
-#T_6a55d_row4_col2 {
-  background-color: #2070b4;
-  color: #f1f1f1;
-}
-#T_6a55d_row5_col1 {
-  background-color: #1b69af;
-  color: #f1f1f1;
-}
-#T_6a55d_row6_col1, #T_6a55d_row6_col2 {
-  background-color: #f7fbff;
-  color: #000000;
-}
-</style>
-<table id="T_6a55d">
-  <caption>Model Performance Summary</caption>
-  <thead>
-    <tr>
-      <th class="blank level0" >&nbsp;</th>
-      <th id="T_6a55d_level0_col0" class="col_heading level0 col0" >Model</th>
-      <th id="T_6a55d_level0_col1" class="col_heading level0 col1" >Accuracy</th>
-      <th id="T_6a55d_level0_col2" class="col_heading level0 col2" >Weighted F1</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th id="T_6a55d_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_6a55d_row0_col0" class="data row0 col0" >DistilBERT (2-epoch)</td>
-      <td id="T_6a55d_row0_col1" class="data row0 col1" >0.711600</td>
-      <td id="T_6a55d_row0_col2" class="data row0 col2" >0.670000</td>
-    </tr>
-    <tr>
-      <th id="T_6a55d_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_6a55d_row1_col0" class="data row1 col0" >DistilBERT (4-epoch)</td>
-      <td id="T_6a55d_row1_col1" class="data row1 col1" >0.714900</td>
-      <td id="T_6a55d_row1_col2" class="data row1 col2" >0.690000</td>
-    </tr>
-    <tr>
-      <th id="T_6a55d_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_6a55d_row2_col0" class="data row2 col0" >Weighted SVM</td>
-      <td id="T_6a55d_row2_col1" class="data row2 col1" >0.698100</td>
-      <td id="T_6a55d_row2_col2" class="data row2 col2" >0.690000</td>
-    </tr>
-    <tr>
-      <th id="T_6a55d_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_6a55d_row3_col0" class="data row3 col0" >SVM</td>
-      <td id="T_6a55d_row3_col1" class="data row3 col1" >0.670000</td>
-      <td id="T_6a55d_row3_col2" class="data row3 col2" >0.660000</td>
-    </tr>
-    <tr>
-      <th id="T_6a55d_level0_row4" class="row_heading level0 row4" >4</th>
-      <td id="T_6a55d_row4_col0" class="data row4 col0" >Naive Bayes</td>
-      <td id="T_6a55d_row4_col1" class="data row4 col1" >0.663900</td>
-      <td id="T_6a55d_row4_col2" class="data row4 col2" >0.630000</td>
-    </tr>
-    <tr>
-      <th id="T_6a55d_level0_row5" class="row_heading level0 row5" >5</th>
-      <td id="T_6a55d_row5_col0" class="data row5 col0" >SMOTE-SVM</td>
-      <td id="T_6a55d_row5_col1" class="data row5 col1" >0.651000</td>
-      <td id="T_6a55d_row5_col2" class="data row5 col2" >0.660000</td>
-    </tr>
-    <tr>
-      <th id="T_6a55d_level0_row6" class="row_heading level0 row6" >6</th>
-      <td id="T_6a55d_row6_col0" class="data row6 col0" >Tuned Logistic Regression</td>
-      <td id="T_6a55d_row6_col1" class="data row6 col1" >0.427000</td>
-      <td id="T_6a55d_row6_col2" class="data row6 col2" >0.450000</td>
-    </tr>
-  </tbody>
-</table>
-
-
 
 
 This project evaluated a range of machine-learning and transformer-based models for sentiment analysis on apple_google_twitter data. The goal was to identify the model that offers the best balance of accuracy, robustness to class imbalance, and real-world practicality. Seven models were compared, including classical machine-learning baselines, SMOTE-enhanced variants, and two versions of a fine-tuned DistilBERT transformer model.
